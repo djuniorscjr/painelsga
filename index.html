@@ -1,0 +1,61 @@
+<html ng-app="painel">
+	<head>
+		<meta charset="utf-8">
+		<title>Painel SGA</title>
+		<link rel="stylesheet" href="bower_components/flexboxgrid/css/flexboxgrid.min.css" type="text/css" >
+		<link rel="stylesheet" href="app/app.css" type="text/css" >
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,700' rel='stylesheet' type='text/css'>
+		<script src="bower_components/angular/angular.min.js" type="text/javascript"></script>
+		<script src="app/app.js" type="text/javascript"></script>
+	</head>
+	<body ng-controller="painelCtrl as vm">
+		<div ng-if="vm.guiches.length == 0">
+			<h1>Sem Chamadas</h1>
+		</div>
+		<div ng-if="vm.guiches.length != 0">
+			<div class="row center-xs atendimento">
+				<div class="col-xs-6">
+					<div class="box">
+						<h1>Atendimento</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row center-xs guiche-principal">
+				<div class="col-xs-5">
+					<div class="box">
+						<h3>{{vm.guiches[0].nameGuiche}}</h3>
+						<h2>{{vm.guiches[0].senha}}</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row center-xs ultima-chamada">
+				<div class="barra">&nbsp;</div>
+				<div class="col-xs-5">
+					<div class="box">
+						<h3>Últimas Chamadas</h3>
+					</div>
+				</div>
+			</div>
+			<div class="row center-xs">
+				<div class="col-xs guiche">
+					<div class="box">
+						<h3>{{vm.guiches[1].nameGuiche}}</h3>
+						<h2>{{vm.guiches[1].senha}}</h2>
+					</div>
+				</div>
+				<div class="col-xs guiche">
+					<div class="box">
+						<h3>{{vm.guiches[2].nameGuiche}}</h3>
+						<h2>{{vm.guiches[2].senha}}</h2>
+					</div>
+				</div>
+				<div class="col-xs guiche3">
+					<div class="box">
+						<h3>{{vm.guiches[3].nameGuiche}}</h3>
+						<h2>{{vm.guiches[3].senha}}</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

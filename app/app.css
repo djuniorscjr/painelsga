@@ -1,0 +1,69 @@
+body {
+	margin: 2%;
+	background-color: #0000ff;
+	color: #ffff00;
+}
+
+.atendimento {
+	margin-bottom: -5%;
+	margin-top: -3%;
+}
+
+.atendimento h1 {
+	font-size: 5vw;
+}
+
+.guiche-principal {
+	margin-bottom: -5%;
+}
+
+.guiche-principal h3 {
+	font-size: 4vw;
+}
+
+.guiche-principal h2 {
+	font-size: 9vw;
+	margin-top: -15%;
+}
+
+.ultima-chamada {
+	margin-bottom: -2%;
+}
+
+.barra {
+	width: 80%;
+	height: 2px;
+	background-color: #ffff00;
+}
+
+.ultima-chamada h3 {
+	font-size: 3vw;
+}
+
+.guiche {
+	border-right: 3px solid;
+}
+
+.guiche h3 {
+	margin-right: 10%;
+	font-size: 4vw;
+	margin-top: 0%;
+}
+
+.guiche h2 {
+	margin-right: 25%;
+	font-size: 4vw;
+	margin-top: -17%;
+}
+
+.guiche3 h3 {
+	margin-right: 10%;
+	font-size: 4vw;
+	margin-top: 0%;
+}
+
+.guiche3 h2 {
+	margin-right: 25%;
+	font-size: 4vw;
+	margin-top: -17%;
+}

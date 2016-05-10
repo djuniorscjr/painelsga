@@ -1,0 +1,21 @@
+{
+  "name": "painel",
+  "authors": [
+    "Domingos Junior <djunior_s@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.5",
+    "flexboxgrid": "^6.3.0"
+  }
+}
